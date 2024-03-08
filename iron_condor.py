@@ -20,7 +20,7 @@ friday = str(friday_date).split()[0]
 # asks the user for news
 def get_news(TICKER):
     # for the news articles
-    NEWS_API_KEY = "YOUR OWN NEWS API KEY"
+    NEWS_API_KEY = "b0899bac3c284df1afb9e1128507c8e5"
     NEWS_ENDPOINT = "https://newsapi.org/v2/top-headlines"
     news_parameters = {
         "q": TICKER,
