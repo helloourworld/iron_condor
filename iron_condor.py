@@ -47,7 +47,7 @@ def get_news(TICKER):
 class SetUp:
     def __init__(self):
         self.TICKER = input("What stock ticker would you like to use?: ").upper()  # can use this
-        # self.TICKER = "AAPL".upper()  # or this if you want to test the code
+        self.TICKER = "AAPL".upper()  # or this if you want to test the code
 
         # from TD Ameritrade
         self.CONSUMER_KEY = "YOUR OWN CONSUMER KEY"
